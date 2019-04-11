@@ -1,0 +1,13 @@
+--- jquery-3.3.1.slim.js	2019-04-11 07:47:35.000000000 +0200
++++ jquery-3.3.2.slim.js	2019-04-11 07:48:54.000000000 +0200
+@@ -261,8 +261,9 @@
+ 				src = target[ name ];
+ 				copy = options[ name ];
+ 
++				// Prevent Object.prototype pollution
+ 				// Prevent never-ending loop
+-				if ( target === copy ) {
++				if ( name === "__proto__" || target === copy ) {
+ 					continue;
+ 				}
+ 
