@@ -1,4 +1,4 @@
-This repository contains the patches for the [Prototype Pollution vulnerability](https://snyk.io/vuln/SNYK-JS-JQUERY-174006) wich affects all jQuery versions prior 3.4.0.
+This repository contains the patches for the [Prototype Pollution vulnerability](https://snyk.io/vuln/SNYK-JS-JQUERY-174006) which affects all jQuery versions prior 3.4.0.
 
 These patches were generated with `diff -u original patched > patchfile`.
 
