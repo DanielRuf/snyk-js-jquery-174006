@@ -1,4 +1,4 @@
-This repository contains the patches for the [Prototype Pollution vulnerability](https://snyk.io/vuln/SNYK-JS-JQUERY-174006) which affects all jQuery versions prior 3.4.0.
+This repository contains the patches for [CVE-2019-11358 - Prototype Pollution vulnerability](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11358) which affects all jQuery versions prior 3.4.0.
 
 These patches were generated with `diff -u original patched > patchfile`.
 
