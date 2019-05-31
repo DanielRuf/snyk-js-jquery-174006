@@ -2,7 +2,7 @@
 +++ jquery-3.3.1.js	2019-04-01 09:02:39.000000000 +0200
 @@ -260,8 +260,9 @@ jQuery.extend = jQuery.fn.extend = function() {
  			for ( name in options ) {
-				src = target[ name ];
+ 				src = target[ name ];
  				copy = options[ name ];
  
 +				// Prevent Object.prototype pollution
