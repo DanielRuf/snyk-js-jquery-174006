@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+npx uglify-js@2.6.2 jquery-1.12.4.js --output jquery-1.12.4.min.js --preamble "/*! jQuery v1.12.4 | (c) jQuery Foundation | jquery.org/license */" --compress hoist_funs=false,loops=false,unused=false,keep_fnames --beautify beautify=false,ascii_only=true --mangle --name-cache /dev/null
+npx uglify-js@2.6.2 jquery-2.2.4.js --output jquery-2.2.4.min.js --preamble "/*! jQuery v2.2.4 | (c) jQuery Foundation | jquery.org/license */" --compress hoist_funs=false,loops=false,unused=false,keep_fnames --beautify beautify=false,ascii_only=true --mangle --name-cache /dev/null
+npx uglify-js@3.4.7 jquery-3.4.1.js --output jquery-3.4.1.min.js --compress hoist_funs=false,loops=false,typeofs=false --beautify beautify=false,ascii_only=true,ie8=true,preamble='"/*! jQuery v3.4.1 | (c) JS Foundation and other contributors | jquery.org/license */"' --mangle
+npx uglify-js@3.4.7 jquery-3.4.1.slim.js --output jquery-3.4.1.slim.min.js --compress hoist_funs=false,loops=false,typeofs=false --beautify beautify=false,ascii_only=true,ie8=true,preamble='"/*! jQuery v3.4.1 -ajax,-ajax/jsonp,-ajax/load,-ajax/parseXML,-ajax/script,-ajax/var/location,-ajax/var/nonce,-ajax/var/rquery,-ajax/xhr,-manipulation/_evalUrl,-event/ajax,-effects,-effects/Tween,-effects/animatedSelector | (c) JS Foundation and other contributors | jquery.org/license */"' --mangle
