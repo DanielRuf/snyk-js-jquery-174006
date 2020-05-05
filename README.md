@@ -10,4 +10,4 @@ Please consult the corresponding docs.
 
 ## Generate minified versions
 
-You can generate the minified versions by applying the patches to the original unminified versions and running `./minify.sh` in a terminal.
+You can generate the minified versions by applying the patches to the original unminified versions and running `./minify.sh` in a terminal (requires Node.js).
