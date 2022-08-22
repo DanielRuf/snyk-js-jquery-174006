@@ -11,3 +11,8 @@ Please consult the corresponding docs.
 ## Generate minified versions
 
 You can generate the minified versions by applying the patches to the original unminified versions and running `./minify.sh` in a terminal (requires Node.js).
+
+
+## Support
+
+only via [Threema](https://threema.id/74SF7MW6?text=)
